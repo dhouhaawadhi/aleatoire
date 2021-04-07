@@ -1,6 +1,6 @@
 
 var nombre = Math.floor(Math.random() * 10) + 1;
-console.log("(La solution est " + nombre + ")");
+console.log("(La solution de alea est " + nombre + ")");
 for (var i = 0; i <= 2; i++) {
     let n=prompt ("Entrez un nombre entre 1 et 10 ");
        if (n < nombre) 
